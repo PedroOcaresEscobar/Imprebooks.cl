@@ -9,14 +9,21 @@ main {
     p{
         @include variables.parrafos();
     }
+    
     section{
         h2{
             @include variables.estiloshsection();
         }
         div{
+            img.d-block.w-100{
+                width: 100px;
+            }
+            
             img{
                 width: variables.$gordo-normal;
             }
         }  
+
     }
+
 }

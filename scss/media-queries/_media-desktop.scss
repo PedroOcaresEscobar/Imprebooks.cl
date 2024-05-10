@@ -1,4 +1,10 @@
 @use '../base/variables';
+@media (min-width: 1237){
+
+    .container-md{
+        display: none;
+    }
+}
 @media (min-width: 768px) and (max-width: 1236px) {
 
 //exclusiones
@@ -99,7 +105,11 @@ main{
                 }
             }
         }
-    
+
+        img.d-block.w-100{
+            width: 100px;
+            background-color: red;
+        }
 }
     main section .Agendasiframe{
         display: grid;
